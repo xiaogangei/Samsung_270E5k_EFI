@@ -1,0 +1,150 @@
+7:914  0:209  Found BIOS RSDP at FCC80
+7:914  0:000  Printing ACPI tables from RSDP FCC80 ...
+7:914  0:000   FCC80: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:914  0:000    (Xsdt: CABD4098, Rsdt: CABD4028)
+7:914  0:000    CABD4098: 'XSDT', 'LH43STAR', Rev: 1, Len: 180
+7:914  0:000    CABD4028: 'RSDT', 'LH43STAR', Rev: 1, Len: 108
+7:914  0:000    Tables in Xsdt: 18
+7:914  0:000    0. CABE1A30: 'FACP', 'LH43STAR', Rev: 5, Len: 268
+7:914  0:000        (Dsdt: CABD41E0, Facs: CBCDCF80, XDsdt: CABD41E0, XFacs: 0)
+7:914  0:000        CABD41E0: 'DSDT', 'LH43STAR', Rev: 2, Len: 55369
+7:915  0:001        CBCDCF80: 'FACS', Ver: 2, Len: 64
+7:915  0:000    1. CABE1B40: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+7:915  0:000    2. CABE1BC8: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+7:915  0:000    3. CABE1C10: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+7:915  0:000    4. CABE1CC0: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+7:915  0:000    5. CABE1D00: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+7:915  0:000    6. CABE1D38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:915  0:000    7. CABE2050: 'UEFI', '', Rev: 1, Len: 66
+7:915  0:000    8. CABE2098: 'LPIT', '', Rev: 1, Len: 148
+7:915  0:000    9. CABE2130: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+7:915  0:000    10. CABE2188: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:915  0:000    11. CABE26C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:915  0:000    12. CABE3240: 'SSDT', 'CtdpB', Rev: 2, Len: 1086
+7:915  0:000    13. CABE3680: 'SSDT', 'SaSsdt', Rev: 2, Len: 23575
+7:915  0:000    14. CABE9298: 'SSDT', 'SgPch', Rev: 2, Len: 1317
+7:915  0:000    15. CABE97C0: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:915  0:000    16. CABE9870: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
+7:915  0:000    17. CABE98A8: 'SSDT', 'OptTabl', Rev: 1, Len: 5121
+7:915  0:000    Tables in Rsdt: 18
+7:915  0:000    0. CABD4158: 'FACP', 'LH43STAR', Rev: 2, Len: 132
+7:915  0:000        (Dsdt: CABD41E0, Facs: CBCDCF40)
+7:915  0:000        CABD41E0: 'DSDT', 'LH43STAR', Rev: 2, Len: 55369
+7:916  0:001        CBCDCF40: 'FACS', Ver: 0, Len: 64
+7:916  0:000    1. CABE1B40: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+7:916  0:000    2. CABE1BC8: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+7:916  0:000    3. CABE1C10: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+7:916  0:000    4. CABE1CC0: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+7:916  0:000    5. CABE1D00: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+7:916  0:000    6. CABE1D38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:916  0:000    7. CABE2050: 'UEFI', '', Rev: 1, Len: 66
+7:916  0:000    8. CABE2098: 'LPIT', '', Rev: 1, Len: 148
+7:916  0:000    9. CABE2130: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+7:916  0:000    10. CABE2188: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:916  0:000    11. CABE26C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:916  0:000    12. CABE3240: 'SSDT', 'CtdpB', Rev: 2, Len: 1086
+7:916  0:000    13. CABE3680: 'SSDT', 'SaSsdt', Rev: 2, Len: 23575
+7:916  0:000    14. CABE9298: 'SSDT', 'SgPch', Rev: 2, Len: 1317
+7:916  0:000    15. CABE97C0: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:916  0:000    16. CABE9870: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
+7:916  0:000    17. CABE98A8: 'SSDT', 'OptTabl', Rev: 1, Len: 5121
+7:916  0:000  Found UEFI Acpi 2.0 RSDP at CABD4000
+7:916  0:000  Saving ACPI tables from RSDP CABD4000 to EFI\CLOVER\ACPI\origin ...
+7:916  0:000   CABD4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:916  0:000    (Xsdt: CABD4098, Rsdt: CABD4028)
+7:916  0:000    CABD4098: 'XSDT', 'LH43STAR', Rev: 1, Len: 180
+7:916  0:000    CABD4028: 'RSDT', 'LH43STAR', Rev: 1, Len: 108
+7:916  0:000    Tables in Xsdt: 18
+7:916  0:000    0. CABE1A30: 'FACP', 'LH43STAR', Rev: 5, Len: 268
+7:916  0:000        (Dsdt: CABD41E0, Facs: CBCDCF80, XDsdt: CABD41E0, XFacs: 0)
+7:916  0:000        CABD41E0: 'DSDT', 'LH43STAR', Rev: 2, Len: 55369
+7:917  0:001        CBCDCF80: 'FACS', Ver: 2, Len: 64
+7:917  0:000    1. CABE1B40: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+7:917  0:000    2. CABE1BC8: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+7:917  0:000    3. CABE1C10: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+7:917  0:000    4. CABE1CC0: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+7:917  0:000    5. CABE1D00: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+7:917  0:000    6. CABE1D38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:917  0:000    7. CABE2050: 'UEFI', '', Rev: 1, Len: 66
+7:917  0:000    8. CABE2098: 'LPIT', '', Rev: 1, Len: 148
+7:917  0:000    9. CABE2130: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+7:917  0:000    10. CABE2188: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:917  0:000    11. CABE26C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:917  0:000    12. CABE3240: 'SSDT', 'CtdpB', Rev: 2, Len: 1086
+7:917  0:000    13. CABE3680: 'SSDT', 'SaSsdt', Rev: 2, Len: 23575
+7:917  0:000    14. CABE9298: 'SSDT', 'SgPch', Rev: 2, Len: 1317
+7:917  0:000    15. CABE97C0: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:917  0:000    16. CABE9870: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
+7:917  0:000    17. CABE98A8: 'SSDT', 'OptTabl', Rev: 1, Len: 5121
+7:917  0:000    Tables in Rsdt: 18
+7:917  0:000    0. CABD4158: 'FACP', 'LH43STAR', Rev: 2, Len: 132
+7:917  0:000        (Dsdt: CABD41E0, Facs: CBCDCF40)
+7:917  0:000        CABD41E0: 'DSDT', 'LH43STAR', Rev: 2, Len: 55369
+7:918  0:001        CBCDCF40: 'FACS', Ver: 0, Len: 64
+7:918  0:000    1. CABE1B40: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+7:918  0:000    2. CABE1BC8: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+7:918  0:000    3. CABE1C10: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+7:918  0:000    4. CABE1CC0: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+7:918  0:000    5. CABE1D00: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+7:918  0:000    6. CABE1D38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:918  0:000    7. CABE2050: 'UEFI', '', Rev: 1, Len: 66
+7:918  0:000    8. CABE2098: 'LPIT', '', Rev: 1, Len: 148
+7:918  0:000    9. CABE2130: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+7:918  0:000    10. CABE2188: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:918  0:000    11. CABE26C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:918  0:000    12. CABE3240: 'SSDT', 'CtdpB', Rev: 2, Len: 1086
+7:918  0:000    13. CABE3680: 'SSDT', 'SaSsdt', Rev: 2, Len: 23575
+7:918  0:000    14. CABE9298: 'SSDT', 'SgPch', Rev: 2, Len: 1317
+7:918  0:000    15. CABE97C0: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:918  0:000    16. CABE9870: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
+7:918  0:000    17. CABE98A8: 'SSDT', 'OptTabl', Rev: 1, Len: 5121
+7:918  0:000  Found UEFI Acpi 1.0 RSDP at CABD4000
+7:918  0:000  Printing ACPI tables from RSDP CABD4000 ...
+7:918  0:000   CABD4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:918  0:000    (Xsdt: CABD4098, Rsdt: CABD4028)
+7:918  0:000    CABD4098: 'XSDT', 'LH43STAR', Rev: 1, Len: 180
+7:918  0:000    CABD4028: 'RSDT', 'LH43STAR', Rev: 1, Len: 108
+7:918  0:000    Tables in Xsdt: 18
+7:918  0:000    0. CABE1A30: 'FACP', 'LH43STAR', Rev: 5, Len: 268
+7:918  0:000        (Dsdt: CABD41E0, Facs: CBCDCF80, XDsdt: CABD41E0, XFacs: 0)
+7:918  0:000        CABD41E0: 'DSDT', 'LH43STAR', Rev: 2, Len: 55369
+7:919  0:001        CBCDCF80: 'FACS', Ver: 2, Len: 64
+7:919  0:000    1. CABE1B40: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+7:919  0:000    2. CABE1BC8: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+7:919  0:000    3. CABE1C10: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+7:919  0:000    4. CABE1CC0: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+7:919  0:000    5. CABE1D00: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+7:919  0:000    6. CABE1D38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:919  0:000    7. CABE2050: 'UEFI', '', Rev: 1, Len: 66
+7:919  0:000    8. CABE2098: 'LPIT', '', Rev: 1, Len: 148
+7:919  0:000    9. CABE2130: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+7:919  0:000    10. CABE2188: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:919  0:000    11. CABE26C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:919  0:000    12. CABE3240: 'SSDT', 'CtdpB', Rev: 2, Len: 1086
+7:919  0:000    13. CABE3680: 'SSDT', 'SaSsdt', Rev: 2, Len: 23575
+7:919  0:000    14. CABE9298: 'SSDT', 'SgPch', Rev: 2, Len: 1317
+7:919  0:000    15. CABE97C0: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:919  0:000    16. CABE9870: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
+7:919  0:000    17. CABE98A8: 'SSDT', 'OptTabl', Rev: 1, Len: 5121
+7:919  0:000    Tables in Rsdt: 18
+7:919  0:000    0. CABD4158: 'FACP', 'LH43STAR', Rev: 2, Len: 132
+7:919  0:000        (Dsdt: CABD41E0, Facs: CBCDCF40)
+7:919  0:000        CABD41E0: 'DSDT', 'LH43STAR', Rev: 2, Len: 55369
+7:920  0:001        CBCDCF40: 'FACS', Ver: 0, Len: 64
+7:920  0:000    1. CABE1B40: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+7:920  0:000    2. CABE1BC8: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+7:920  0:000    3. CABE1C10: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+7:921  0:000    4. CABE1CC0: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+7:921  0:000    5. CABE1D00: 'HPET', 'LH43STAR', Rev: 1, Len: 56
+7:921  0:000    6. CABE1D38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:921  0:000    7. CABE2050: 'UEFI', '', Rev: 1, Len: 66
+7:921  0:000    8. CABE2098: 'LPIT', '', Rev: 1, Len: 148
+7:921  0:000    9. CABE2130: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+7:921  0:000    10. CABE2188: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+7:921  0:000    11. CABE26C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+7:921  0:000    12. CABE3240: 'SSDT', 'CtdpB', Rev: 2, Len: 1086
+7:921  0:000    13. CABE3680: 'SSDT', 'SaSsdt', Rev: 2, Len: 23575
+7:921  0:000    14. CABE9298: 'SSDT', 'SgPch', Rev: 2, Len: 1317
+7:921  0:000    15. CABE97C0: 'DMAR', 'BDW', Rev: 1, Len: 176
+7:921  0:000    16. CABE9870: 'BGRT', 'LH43STAR', Rev: 0, Len: 56
+7:921  0:000    17. CABE98A8: 'SSDT', 'OptTabl', Rev: 1, Len: 5121
